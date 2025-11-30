@@ -1,0 +1,33 @@
+{
+    "architecture": "amd64",
+    "config": {
+        "Cmd": [
+            "/hello"
+        ],
+        "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ],
+        "WorkingDir": "/"
+    },
+    "created": "2025-08-08T19:05:17Z",
+    "history": [
+        {
+            "comment": "buildkit.dockerfile.v0",
+            "created": "2025-08-08T19:05:17Z",
+            "created_by": "COPY hello / # buildkit"
+        },
+        {
+            "comment": "buildkit.dockerfile.v0",
+            "created": "2025-08-08T19:05:17Z",
+            "created_by": "CMD [\"/hello\"]",
+            "empty_layer": true
+        }
+    ],
+    "os": "linux",
+    "rootfs": {
+        "diff_ids": [
+            "sha256:53d204b3dc5ddbc129df4ce71996b8168711e211274c785de5e0d4eb68ec3851"
+        ],
+        "type": "layers"
+    }
+}
